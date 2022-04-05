@@ -10,3 +10,6 @@ git branch (list all the branches available)
 git add . (. refers to all all files) or you can do (git add {filename})
 #git checkout (branch name)
 git checkout colvine-demo
+git commit -m "commit message"
+git push 
+git remote -v "list all remote repos"
