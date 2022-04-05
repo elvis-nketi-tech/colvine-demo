@@ -11,5 +11,7 @@ git add . (. refers to all all files) or you can do (git add {filename})
 #git checkout (branch name)
 git checkout colvine-demo
 git commit -m "commit message"
-git push 
+git push orgin [branch_name]
 git remote -v "list all remote repos"
+git pull   (pull remote changes to your local and merge to codebase)
+git fetch   (git fetch only pulls the changes and does not merge to codebbase)
